@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E941AD0B228D488C002EED3B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E9E61455228C3C0000DB453F /* AppDelegate.swift */,
+				E9E6145C228C3C0200DB453F /* Assets.xcassets */,
+				E9E6145E228C3C0200DB453F /* LaunchScreen.storyboard */,
+				E9E61461228C3C0200DB453F /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		E9E61449228C3C0000DB453F = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +73,10 @@
 		E9E61454228C3C0000DB453F /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				E9E61455228C3C0000DB453F /* AppDelegate.swift */,
 				E9E61471228C49E600DB453F /* ViewControllers */,
 				E9E61472228C49F900DB453F /* Cells */,
 				E9E61459228C3C0000DB453F /* Main.storyboard */,
-				E9E6145C228C3C0200DB453F /* Assets.xcassets */,
-				E9E6145E228C3C0200DB453F /* LaunchScreen.storyboard */,
-				E9E61461228C3C0200DB453F /* Info.plist */,
+				E941AD0B228D488C002EED3B /* SupportingFiles */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -331,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomCell/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomCell/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomCell/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomCell/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

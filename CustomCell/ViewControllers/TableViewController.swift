@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct 	cellData {
+struct cellData {
     let cell : Int!
     let text : String!
     let image : UIImage
@@ -27,11 +27,7 @@ class TableViewController: UITableViewController {
         
     }
     
-    
-    
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return arrayCellData.count;
         
     }
